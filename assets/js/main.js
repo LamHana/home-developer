@@ -4,11 +4,11 @@ function scrollNav() {
 
     if (scrollValue < 0.800000011920929) {
         navbar.classList.remove('scroll-active');
-        document.getElementById("login-btn").style.border = "2px solid transparent";
+        document.getElementById("login-btn").style.padding = "7px 1px";
     }
     else {
         navbar.classList.add('scroll-active');
-        document.getElementById("login-btn").style.border = "0px solid transparent";
+        document.getElementById("login-btn").style.padding = "6px 0px";
     }
 }
 
