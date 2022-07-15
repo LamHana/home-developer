@@ -6,6 +6,7 @@
 
 body {
     height: 2000px;
+    background: #ccc;
 }
 
 #header {
@@ -15,13 +16,19 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px 62px;
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-active {
+    background: #fff;
+    box-shadow: 0 2px 35px 0 rgb(0 0 0 / 10%);
 }
 
 .header__logo {
+    background-image: url(../img/header/logo.png);
     width: 60px;
     height: 60px;
     margin: auto;
-    cursor: pointer;
 }
 
 .header__nav {
@@ -44,12 +51,31 @@ body {
 }
 
 .header__nav_container li {
+    position: relative;
     margin-left: 35px;
     list-style-type: none;
 }
 
 .header__nav_container a {
     color: #040c2c;
+}
+
+.header__nav_container a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.header__nav_container a::before {
+    position: absolute;
+    content: "";
+    left: auto;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 1.3px;
+    opacity: 0.71;
+    background: #040c2c;
+    transition: all 0.3s ease-in-out;
 }
 
 .header__nav_login li {
@@ -66,7 +92,7 @@ body {
     color: #fff;
     padding: 12px 34px;
     border: 2px solid transparent;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 }
 
 .header__nav_login a:hover {
@@ -87,7 +113,7 @@ body {
     left: 0;
     right: 0;
     background-color: #fff;
-    transition-duration: .4s;
+    transition-duration: 0.4s;
     transition-timing-function: ease-out;
     transform: scaleX(0);
 }
