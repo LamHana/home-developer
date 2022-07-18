@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     line-height: 30px;
     height: 10000px;
     color: #797979;
-    z-index: -3;
-    position: relative;
 }
 
 .container {
@@ -328,60 +330,29 @@ body {
     animation: fadeInUp 1200ms 0ms 1;
 }
 
-@keyframes fadeInUp {
-    0% {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+#about {
+    position: relative;
+    padding: 120px 0;
+    z-index: -2;
+    height: auto;
+    display: flex;
+    align-items: center;
 }
 
-@keyframes fadeInUp1 {
-    0% {
-        transform: translateY(15px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
+.skill-part__item {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 50px 150px 0 rgb(4 73 89 / 5%);
+    padding: 30px 60px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
-@keyframes fadeInLeft {
-    0% {
-        transform: translateX(-20px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+.skill-part .skill-part__item + .skill-part__item {
+    margin-top: 10px;
 }
 
-@keyframes fadeInDown {
-    0% {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInRight {
-    0% {
-        transform: translateX(20px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+.content-part {
+    padding-left: 100px;
 }
