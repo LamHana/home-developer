@@ -9,9 +9,11 @@ html {
 }
 
 body {
+    position: relative;
     line-height: 30px;
     height: 10000px;
     color: #797979;
+    z-index: -9999;
 }
 
 .container {
@@ -48,7 +50,7 @@ body {
 
 .scroll-active {
     background: #fff;
-    box-shadow: 0 2px 35px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 35px 0 #0000001a;
 }
 
 .header__logo {
@@ -68,7 +70,7 @@ body {
 
 .header__nav a {
     text-decoration: none;
-    font: 600 14px/30px Montserrat, sans-serif;
+    font: bold 14px/30px Montserrat, sans-serif;
     text-transform: uppercase;
 }
 
@@ -123,7 +125,7 @@ body {
 }
 
 #header__nav-login-link:hover {
-    box-shadow: 0 16px 30px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 16px 30px 0 #0000001f;
     color: #040c2c;
 }
 
@@ -152,7 +154,6 @@ body {
     position: relative;
     z-index: -2;
     display: flex;
-    align-items: center;
 }
 
 .img-top-left {
@@ -194,7 +195,7 @@ body {
 
 .developer-content__job span {
     color: #051441;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -203,7 +204,7 @@ body {
 .developer-content__slogan {
     font-size: 70px;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: bold;
     color: #051441;
     letter-spacing: -1.01px;
     margin-bottom: 32px;
@@ -236,7 +237,7 @@ body {
     margin-top: 120px;
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 13px 237px 0 rgb(0 0 0 / 4%);
+    box-shadow: 0 13px 237px 0 #0000000a;
 }
 
 .developer-skill__experience,
@@ -339,20 +340,91 @@ body {
     align-items: center;
 }
 
+.skill-part .skill-part__item + .skill-part__item {
+    margin-top: 10px;
+}
+
 .skill-part__item {
     position: relative;
     background: #fff;
-    box-shadow: 0 50px 150px 0 rgb(4 73 89 / 5%);
+    box-shadow: 0 50px 150px 0 #0449590d;
     padding: 30px 60px;
     border-radius: 10px;
     transition: all 0.2s;
     cursor: pointer;
 }
 
-.skill-part .skill-part__item + .skill-part__item {
-    margin-top: 10px;
+.skill-part__item:hover {
+    box-shadow: 0 4px 60px 0 #0449590d, 0 12px 100px 0 #0449590f;
+}
+
+.skill-part__item:hover h3 {
+    color: #64f4ac;
+}
+
+.skill-part__item h3 {
+    font-size: 32px;
+    color: #051441;
+    font-weight: bold;
+    transition: color .2s linear;
+    margin-bottom: 8px;
+}
+
+.skill-part__item p {
+    color: #545454;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.skill-part__item a {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    color: #051441;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.skill-part__item span {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 30px;
+    color: #64f4ac;
 }
 
 .content-part {
     padding-left: 100px;
+}
+
+.content-part h6 {
+    font-size: 21px;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.content-part h2 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #051441;
+    line-height: 1.15;
+    margin-bottom: 30px;
+}
+
+.content-part h5 {
+    font-style: italic;
+    font-size: 27px;
+    line-height: 1.4;
+    color: #051441;
+    margin-bottom: 20px;
+}
+
+.content-part p {
+    color: #545454;
+    font-size: 19.6px;
+    line-height: 1.6;
 }
