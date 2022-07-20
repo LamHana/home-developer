@@ -149,6 +149,7 @@ body {
     transform: scaleX(0);
 }
 
+#contact,
 #service,
 #about,
 #home {
@@ -497,4 +498,59 @@ body {
 /* Contact */
 #contact {
     padding: 120px 0;
+}
+
+.info {
+    padding-left: 175px;
+}
+
+.input > h6,
+.info > h6 {
+    color: #64f4ac;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.input > h2,
+.info > h2 {
+    color: #051441;
+    letter-spacing: -2px;
+    font-size: 41.5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 78px;
+}
+
+.info .media + .media {
+    margin-top: 25px;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media i {
+    color: #64f4ac;
+    font-size: 50px;
+    margin: 0px 20px;
+}
+
+.media__content {
+    flex-grow: 1;
+}
+
+.media__content h6 {
+    font-weight: bold;
+    font-size: 15.5px;
+    color: #545454;
+}
+
+.media__content a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #040c2c;
 }
