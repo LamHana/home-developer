@@ -358,7 +358,7 @@ textarea:focus, input:focus{
 }
 
 .developer-img6 img {
-    animation: fadeInUp1 1.9s .3s infinite alternate-reverse both;
+    animation: fadeInUp1 1.9s 0.3s infinite alternate-reverse both;
 }
 
 .developer-img7 {
@@ -608,9 +608,71 @@ textarea:focus, input:focus{
     border: none;
     padding: 16.5px 37px 16.5px 42px;
     cursor: pointer;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 }
 
 .input__form-btn:hover {
     box-shadow: 0 16px 30px 0 rgb(0 0 0 / 12%);
+}
+
+/* Footer */
+#footer {
+    background: #64f4ac;
+    padding: 11.5px 0;
+    margin-top: 3.5px;
+}
+
+.social-network {
+    display: flex;
+    position: relative;
+    left: 175px;
+    text-align: center;
+    line-height: 60px;
+    list-style-type: none;
+}
+
+.social-network__item {
+    padding: 0 5px;
+}
+
+.social-network__item a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    line-height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s linear;
+    text-align: center;
+}
+
+.social-network__item a:hover {
+    background: #fff;
+    color: #494949;
+}
+
+.license {
+    padding-right: 175px;
+    text-align: right;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.license h6 {
+    color: #fff;
+    font-size: 16.5px;
+}
+
+.license h6 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.license p {
+    font-size: 9.6px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
