@@ -11,7 +11,6 @@ html {
 body {
     position: relative;
     line-height: 30px;
-    height: 8100px;
     color: #797979;
     z-index: -9999;
 }
@@ -35,6 +34,14 @@ body {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.mgr30px {
+    margin-right: 30px;
+}
+
+textarea:focus, input:focus{
+    outline: 1px solid #0db3c7;
 }
 
 /* Header */
@@ -498,6 +505,7 @@ body {
 /* Contact */
 #contact {
     padding: 120px 0;
+    background: #fafafa;
 }
 
 .info {
@@ -532,10 +540,11 @@ body {
     align-items: center;
 }
 
-.media i {
+.media > a {
     color: #64f4ac;
     font-size: 50px;
-    margin: 0px 20px;
+    margin: 0 30px 0 20px;
+    width: 10%;
 }
 
 .media__content {
@@ -553,4 +562,55 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: #040c2c;
+}
+
+.input {
+    position: relative;
+    right: 93px;
+    animation: fadeInRight 800ms 0ms 1;
+}
+
+.input__form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.input__form .input__form-message,
+.input__form-text {
+    font-size: 16px;
+    line-height: 24px;
+    min-height: 44px;
+    color: #494949;
+    border: 1px solid #ededed;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.input__form .input__form-message {
+    resize: none;
+    height: 142px;
+    padding: 12px 12px 6px 20px;
+}
+
+.input__form-text {
+    flex: 1;
+    padding: 6px 12px 6px 20px;
+}
+
+.input__form-btn {
+    background: #64f4ac;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 4px;
+    max-width: 200px;
+    border: none;
+    padding: 16.5px 37px 16.5px 42px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.input__form-btn:hover {
+    box-shadow: 0 16px 30px 0 rgb(0 0 0 / 12%);
 }
