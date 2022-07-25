@@ -51,7 +51,7 @@ textarea:focus, input:focus{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 8px 62px;
+    padding: 8px 54px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -62,8 +62,6 @@ textarea:focus, input:focus{
 }
 
 .header__logo {
-    position: relative;
-    right: 8px;
     background-image: url(../img/header/logo.png);
     width: 60px;
     height: 60px;
@@ -117,8 +115,7 @@ textarea:focus, input:focus{
 }
 
 .header__nav-login {
-    position: relative;
-    left: 8px;
+    
 }
 
 .header__nav-login li {
@@ -160,6 +157,21 @@ textarea:focus, input:focus{
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
     transform: scaleX(0);
+}
+
+.header__btn-menu {
+    display: none;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.header__btn-menu span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #040c2c;
+    margin-bottom: 5px;
 }
 
 #contact,

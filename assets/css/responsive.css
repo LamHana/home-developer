@@ -1,11 +1,41 @@
 /* PC */
 @media (min-width:  64em) {
-    
+
 }
 
 /* Tablet & Mobile */
 @media (max-width:  63.9375em) {
-    
+    #header {
+        height: 80px;
+        padding: 8px 24px;
+    }
+
+    .header__logo {
+        flex: 1;
+        background-repeat: no-repeat;
+        margin-top: 2px;
+    }
+
+    .header__nav {
+        flex-grow: unset;
+    }
+
+    .header__nav-container {
+        display: none;
+    }
+
+    .header__btn-menu {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .overlay_color {
+        width: 470px;
+    }
+
+    .developer-content__img {
+        left: -4px;
+    }
 }
 
 /* Tablet */
