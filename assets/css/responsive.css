@@ -66,7 +66,7 @@
     }
 
     .developer-content__developer-skill {
-        margin-top: 60px;
+        margin: 60px 0 40px 0;
         margin-left: unset;
         width: 100%;
     }
