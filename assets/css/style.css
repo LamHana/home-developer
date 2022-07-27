@@ -68,6 +68,12 @@ textarea:focus, input:focus{
     margin-top: 5px;
 }
 
+.header__logo a {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
 /* Nav */
 .header__nav {
     display: flex;
