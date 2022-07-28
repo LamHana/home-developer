@@ -32,6 +32,7 @@
 
 /* Tablet */
 @media (min-width: 46.25em) and (max-width:  63.9375em) {
+    /* Home section */
     .overlay_color {
         width: 470px;
     }
@@ -77,6 +78,22 @@
 
     .developer-skill__experience p, .developer-skill__projects p {
         font-size: 15px;
+    }
+
+    .developer-img1 {
+        left: 67px;
+    }
+
+    .developer-img2 {
+        left: 89px;
+    }
+
+    .developer-img3 {
+        right: -64px;
+    }
+
+    .developer-img6 {
+        left: 73.6%;
     }
 }
 
