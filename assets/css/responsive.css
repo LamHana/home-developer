@@ -1,0 +1,103 @@
+/* PC */
+@media (min-width:  64em) {
+
+}
+
+/* Tablet & Mobile */
+@media (max-width:  63.9375em) {
+    #header {
+        height: 80px;
+        padding: 8px 24px;
+    }
+
+    .header__logo {
+        flex: 1;
+        background-repeat: no-repeat;
+        margin-top: 2px;
+    }
+
+    .header__nav {
+        flex-grow: unset;
+    }
+
+    .header__nav-container {
+        display: none;
+    }
+
+    .header__btn-menu {
+        display: block;
+        margin-left: 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width:  63.9375em) {
+    /* Home section */
+    .overlay_color {
+        width: 470px;
+    }
+
+    .developer-content__img {
+        left: -56px;
+    } 
+
+    .developer-content {
+        padding: unset;
+    }
+
+    .developer-content__chat, 
+    .developer-content__describe, 
+    .developer-content__slogan, 
+    .developer-content__job {
+        margin-left: 9px;
+    }
+
+    .developer-content__job {
+        padding: 7px 29px;
+    }
+
+    .developer-content__job span  {
+        font-size: 13px;
+        letter-spacing: 3.5px;
+    }
+
+    .developer-content__slogan {
+        font-size: 57px;
+        line-height: 1.15;
+    }
+
+    .developer-content__developer-skill {
+        margin: 60px 0 40px 0;
+        margin-left: unset;
+        width: 100%;
+    }
+
+    .developer-skill__experience, .developer-skill__projects {
+        width: 50%;
+    }
+
+    .developer-skill__experience p, .developer-skill__projects p {
+        font-size: 15px;
+    }
+
+    .developer-img1 {
+        left: 67px;
+    }
+
+    .developer-img2 {
+        left: 89px;
+    }
+
+    .developer-img3 {
+        right: -64px;
+    }
+
+    .developer-img6 {
+        left: 73.6%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) { 
+  
+}

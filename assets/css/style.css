@@ -51,7 +51,7 @@ textarea:focus, input:focus{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 8px 62px;
+    padding: 8px 54px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -63,16 +63,20 @@ textarea:focus, input:focus{
 
 .header__logo {
     background-image: url(../img/header/logo.png);
-    position: absolute;
     width: 60px;
     height: 60px;
     margin-top: 5px;
 }
 
+.header__logo a {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
 /* Nav */
 .header__nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-grow: 1;
 }
@@ -85,13 +89,13 @@ textarea:focus, input:focus{
 
 .header__nav-container {
     display: flex;
-    justify-content: space-between;
     margin: auto;
 }
 
 .header__nav-container li {
     position: relative;
     margin-left: 35px;
+    letter-spacing: 0.5px;
     list-style-type: none;
 }
 
@@ -116,9 +120,14 @@ textarea:focus, input:focus{
     transition: all 0.3s ease-in-out;
 }
 
+.header__nav-login {
+    
+}
+
 .header__nav-login li {
     background: #040c2c;
     padding: 8px 3px 7px 3px;
+    margin-left: 35px;
     border-radius: 3px;
     list-style-type: none;
     transition: all 0.3s ease-in-out;
@@ -154,6 +163,21 @@ textarea:focus, input:focus{
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
     transform: scaleX(0);
+}
+
+.header__btn-menu {
+    display: none;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.header__btn-menu span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #040c2c;
+    margin-bottom: 5px;
 }
 
 #contact,
