@@ -1,10 +1,8 @@
 /* PC */
-@media (min-width:  64em) {
-
-}
+@media (min-width: 64em) {}
 
 /* Tablet & Mobile */
-@media (max-width:  63.9375em) {
+@media (max-width: 63.9375em) {
     #header {
         height: 80px;
         padding: 8px 24px;
@@ -31,7 +29,8 @@
 }
 
 /* Tablet */
-@media (min-width: 46.25em) and (max-width:  63.9375em) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
     /* Home section */
     .overlay_color {
         width: 470px;
@@ -39,15 +38,15 @@
 
     .developer-content__img {
         left: -56px;
-    } 
+    }
 
     .developer-content {
         padding: unset;
     }
 
-    .developer-content__chat, 
-    .developer-content__describe, 
-    .developer-content__slogan, 
+    .developer-content__chat,
+    .developer-content__describe,
+    .developer-content__slogan,
     .developer-content__job {
         margin-left: 9px;
     }
@@ -56,7 +55,7 @@
         padding: 7px 29px;
     }
 
-    .developer-content__job span  {
+    .developer-content__job span {
         font-size: 13px;
         letter-spacing: 3.5px;
     }
@@ -72,11 +71,13 @@
         width: 100%;
     }
 
-    .developer-skill__experience, .developer-skill__projects {
+    .developer-skill__experience,
+    .developer-skill__projects {
         width: 50%;
     }
 
-    .developer-skill__experience p, .developer-skill__projects p {
+    .developer-skill__experience p,
+    .developer-skill__projects p {
         font-size: 15px;
     }
 
@@ -133,6 +134,4 @@
 }
 
 /* Mobile */
-@media (max-width: 46.1875em) { 
-  
-}
+@media (max-width: 46.1875em) {}

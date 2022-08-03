@@ -13,6 +13,7 @@ body {
     line-height: 30px;
     color: #797979;
     z-index: -9999;
+    font-family: Open Sans, sans-serif;
 }
 
 .container {
@@ -39,7 +40,8 @@ body {
     margin-right: 30px;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: 1px solid #0db3c7;
 }
 
@@ -82,7 +84,7 @@ textarea:focus, input:focus{
 
 .header__nav a {
     text-decoration: none;
-    font: bold 14px/30px Montserrat, sans-serif;
+    font: bolder 13.5px/30px Montserrat, sans-serif;
     text-transform: uppercase;
 }
 
@@ -119,13 +121,11 @@ textarea:focus, input:focus{
     transition: all 0.3s ease-in-out;
 }
 
-.header__nav-login {
-    
-}
+.header__nav-login {}
 
 .header__nav-login li {
     background: #040c2c;
-    padding: 8px 3px 7px 3px;
+    padding: 6.5px 3px 7px 3px;
     margin-left: 35px;
     border-radius: 3px;
     list-style-type: none;
@@ -222,7 +222,7 @@ textarea:focus, input:focus{
 .developer-content__img {
     position: absolute;
     top: 0;
-    left: 110px;
+    left: 109.5px;
     z-index: -1;
 }
 
@@ -233,11 +233,19 @@ textarea:focus, input:focus{
     margin-left: 175px;
 }
 
+.developer-skill__experience p,
+.developer-skill__projects p,
+.developer-content__job span,
+.developer-content__slogan,
+.developer-content__describe {
+    font-family: Poppins, sans-serif;
+}
+
 .developer-content__job {
     display: inline-block;
     background: #64f4ac;
     border-radius: 4px;
-    padding: 8px 33px;
+    padding: 8px 30.5px;
     margin-bottom: 32px;
     animation: fadeInUp 500ms 0ms 1;
 }
@@ -247,12 +255,12 @@ textarea:focus, input:focus{
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 6.1px;
 }
 
 .developer-content__slogan {
-    font-size: 70px;
-    line-height: 1.2;
+    font-size: 58px;
+    line-height: 1.3;
     font-weight: bold;
     color: #051441;
     letter-spacing: -1.01px;
@@ -261,7 +269,6 @@ textarea:focus, input:focus{
 }
 
 .developer-content__describe {
-    font-size: 20px;
     color: #545454;
     margin-bottom: 56px;
     animation: fadeInUp 900ms 0ms 1;
@@ -281,8 +288,8 @@ textarea:focus, input:focus{
 .developer-content__chat::before {
     position: absolute;
     content: "";
-    width: 100%;    
-    height: 2px;
+    width: 100%;
+    height: 1px;
     left: 0;
     bottom: 0;
     background: #64f4ac;
@@ -301,11 +308,9 @@ textarea:focus, input:focus{
 
 .developer-skill__experience,
 .developer-skill__projects {
-    font-weight: 500;
     text-transform: uppercase;
     line-height: 1.5;
     color: #545454;
-    font-size: 15px;
     padding: 0 38px;
 }
 
@@ -313,7 +318,6 @@ textarea:focus, input:focus{
 .developer-skill__projects p {
     display: flex;
     align-items: center;
-    font-size: 16px;
     color: #545454;
     font-weight: bold;
 }
@@ -337,7 +341,7 @@ textarea:focus, input:focus{
 
 .developer-img1 {
     left: 160px;
-    bottom: 170px;
+    bottom: 169px;
     z-index: -1;
     animation: fadeInLeft 1400ms 0ms 1;
 }
@@ -399,7 +403,7 @@ textarea:focus, input:focus{
     padding-left: 180px;
 }
 
-.skill-part .skill-part__item + .skill-part__item {
+.skill-part .skill-part__item+.skill-part__item {
     margin-top: 10px;
 }
 
@@ -533,8 +537,8 @@ textarea:focus, input:focus{
     padding-left: 175px;
 }
 
-.input > h6,
-.info > h6 {
+.input>h6,
+.info>h6 {
     color: #64f4ac;
     font-size: 18px;
     font-weight: bold;
@@ -542,8 +546,8 @@ textarea:focus, input:focus{
     margin-bottom: 15px;
 }
 
-.input > h2,
-.info > h2 {
+.input>h2,
+.info>h2 {
     color: #051441;
     letter-spacing: -2px;
     font-size: 41.5px;
@@ -552,7 +556,7 @@ textarea:focus, input:focus{
     margin-bottom: 78px;
 }
 
-.info .media + .media {
+.info .media+.media {
     margin-top: 25px;
 }
 
@@ -561,7 +565,7 @@ textarea:focus, input:focus{
     align-items: center;
 }
 
-.media > a {
+.media>a {
     color: #64f4ac;
     font-size: 50px;
     margin: 0 30px 0 20px;
