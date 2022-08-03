@@ -121,6 +121,15 @@
         padding: 0px 50px 0 10px;
         margin-bottom: 30px;
     }
+
+    /* Service section */
+    .supporter {
+        padding: 0 70px;
+    }
+
+    .supporter__logo-item {
+        width: 23%;
+    }
 }
 
 /* Mobile */

@@ -392,7 +392,7 @@ textarea:focus, input:focus{
 
 /* About */
 #about {
-    padding: 120px 0 0;
+    padding: 120px 0;
 }
 
 .skill-part {
@@ -506,7 +506,7 @@ textarea:focus, input:focus{
 
 /* Service */
 #service {
-    padding-top: 170px;
+    padding-top: 50px;
 }
 
 .supporter {
@@ -514,8 +514,7 @@ textarea:focus, input:focus{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding: 0 180px;
 }
 
 .supporter__logo-item {
