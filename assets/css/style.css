@@ -21,6 +21,7 @@ body {
     padding-left: 15px;
 }
 
+.row-reverse,
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -472,8 +473,7 @@ textarea:focus, input:focus{
 }
 
 .content-part {
-    padding-left: 100px;
-    padding-right: 180px;
+    padding: 0 180px 0 100px;
 }
 
 .content-part h6 {

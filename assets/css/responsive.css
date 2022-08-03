@@ -103,6 +103,24 @@
     .developer-img6 {
         left: 73.6%;
     }
+
+    /* About section */
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .skill-part {
+        padding: 0 10px;
+    }
+
+    .skill-part__item {
+        padding: 30px 60px 30px 30px;
+    }
+
+    .content-part {
+        padding: 0px 50px 0 10px;
+        margin-bottom: 30px;
+    }
 }
 
 /* Mobile */
