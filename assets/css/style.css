@@ -217,6 +217,7 @@ input:focus {
 .developer-img,
 .developer-content {
     padding-top: 70px;
+    height: 767px;
 }
 
 .developer-content__img {
@@ -341,7 +342,7 @@ input:focus {
 
 .developer-img1 {
     left: 160px;
-    bottom: 169px;
+    bottom: 151px;
     z-index: -1;
     animation: fadeInLeft 1400ms 0ms 1;
 }
