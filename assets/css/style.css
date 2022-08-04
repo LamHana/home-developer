@@ -45,6 +45,29 @@ input:focus {
     outline: 1px solid #0db3c7;
 }
 
+/* Font */
+.license p,
+.license h6,
+.input__form-btn,
+.media__content h6,
+.input > h2,
+.info > h2,
+.input > h6,
+.info > h6,
+.content-part p,
+.content-part h5,
+.content-part h2,
+.content-part h6,
+.skill-part__item,
+.developer-skill__experience p,
+.developer-skill__projects p,
+.developer-content__job span,
+.developer-content__slogan,
+.developer-content__describe {
+    font-family: Poppins, sans-serif;
+}
+
+
 /* Header */
 #header {
     position: fixed;
@@ -217,7 +240,6 @@ input:focus {
 .developer-img,
 .developer-content {
     padding-top: 70px;
-    height: 767px;
 }
 
 .developer-content__img {
@@ -232,14 +254,6 @@ input:focus {
 .developer-content__slogan,
 .developer-content__job {
     margin-left: 175px;
-}
-
-.developer-skill__experience p,
-.developer-skill__projects p,
-.developer-content__job span,
-.developer-content__slogan,
-.developer-content__describe {
-    font-family: Poppins, sans-serif;
 }
 
 .developer-content__job {
@@ -330,6 +344,10 @@ input:focus {
     color: #051441;
 }
 
+.developer-img {
+    height: 767px;
+}
+
 .developer-img1,
 .developer-img2,
 .developer-img3,
@@ -397,7 +415,7 @@ input:focus {
 
 /* About */
 #about {
-    padding: 120px 0;
+    padding: 120px 0 80px;
 }
 
 .skill-part {
@@ -422,21 +440,21 @@ input:focus {
     box-shadow: 0 4px 60px 0 #0449590d, 0 12px 100px 0 #0449590f;
 }
 
+.skill-part__item h3 {
+    font-size: 28px;
+    color: #051441;
+    font-weight: bold;
+    transition: color 0.2s linear;
+    margin-bottom: 8px;
+}
+
 .skill-part__item:hover h3 {
     color: #64f4ac;
 }
 
-.skill-part__item h3 {
-    font-size: 32px;
-    color: #051441;
-    font-weight: bold;
-    transition: color .2s linear;
-    margin-bottom: 8px;
-}
-
 .skill-part__item p {
     color: #545454;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 16px;
 }
 
@@ -445,7 +463,7 @@ input:focus {
     position: relative;
     margin-top: 15px;
     color: #051441;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 15px;
@@ -482,36 +500,37 @@ input:focus {
 }
 
 .content-part h6 {
-    font-size: 21px;
+    font-size: 18px;
     color: #545454;
     margin-bottom: 20px;
 }
 
 .content-part h2 {
-    font-size: 46px;
-    font-weight: bold;
+    font-size: 42px;
     color: #051441;
     line-height: 1.15;
+    letter-spacing: 0.5px;
     margin-bottom: 30px;
 }
 
 .content-part h5 {
     font-style: italic;
-    font-size: 27px;
-    line-height: 1.4;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 500;
     color: #051441;
     margin-bottom: 20px;
 }
 
 .content-part p {
     color: #545454;
-    font-size: 19.6px;
-    line-height: 1.6;
+    line-height: 32px;
+    font-size: 15.8px;
 }
 
 /* Service */
 #service {
-    padding-top: 50px;
+    padding-top: 100px; 
 }
 
 .supporter {
@@ -538,26 +557,26 @@ input:focus {
     padding-left: 175px;
 }
 
-.input>h6,
-.info>h6 {
+.input > h6,
+.info > h6 {
     color: #64f4ac;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
 
-.input>h2,
-.info>h2 {
+.input > h2,
+.info > h2 {
     color: #051441;
-    letter-spacing: -2px;
-    font-size: 41.5px;
+    letter-spacing: -1.7px;
+    font-size: 38px;
     font-weight: bold;
     text-transform: capitalize;
     margin-bottom: 78px;
 }
 
-.info .media+.media {
+.info .media + .media {
     margin-top: 25px;
 }
 
@@ -566,7 +585,7 @@ input:focus {
     align-items: center;
 }
 
-.media>a {
+.media > a {
     color: #64f4ac;
     font-size: 50px;
     margin: 0 30px 0 20px;
@@ -578,8 +597,8 @@ input:focus {
 }
 
 .media__content h6 {
-    font-weight: bold;
-    font-size: 15.5px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
     color: #545454;
 }
 
@@ -587,6 +606,7 @@ input:focus {
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
+    font-family: Montserrat, sans-serif;
     color: #040c2c;
 }
 
@@ -604,8 +624,9 @@ input:focus {
 
 .input__form .input__form-message,
 .input__form-text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
+    letter-spacing: 0.5px;
     min-height: 44px;
     color: #494949;
     border: 1px solid #ededed;
@@ -627,12 +648,12 @@ input:focus {
 .input__form-btn {
     background: #64f4ac;
     color: #fff;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     border-radius: 4px;
     max-width: 200px;
     border: none;
-    padding: 16.5px 37px 16.5px 42px;
+    padding: 15px 38px 15px 42px;
     cursor: pointer;
     transition: all 0.3s linear;
 }
@@ -688,7 +709,8 @@ input:focus {
 
 .license h6 {
     color: #fff;
-    font-size: 16.5px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
 }
 
 .license h6 a {
@@ -697,7 +719,8 @@ input:focus {
 }
 
 .license p {
-    font-size: 9.6px;
+    font-size: 10px;
+    font-weight: 400;
     color: #fff;
     letter-spacing: 3px;
     text-transform: uppercase;
