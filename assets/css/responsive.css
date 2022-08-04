@@ -161,6 +161,13 @@
     }
 
     /* Footer section */
+    .social-network {
+        left: 0;
+    }
+
+    .license {
+        padding: 0;
+    }
 }
 
 /* Mobile */
