@@ -88,16 +88,7 @@ input:focus {
 }
 
 .header__logo {
-    background-image: url(../img/header/logo.png);
-    width: 60px;
-    height: 60px;
     margin-top: 5px;
-}
-
-.header__logo a {
-    position: absolute;
-    width: inherit;
-    height: inherit;
 }
 
 /* Nav */
