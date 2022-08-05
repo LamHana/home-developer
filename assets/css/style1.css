@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-#portfolio {
-    padding: 140px 0 120px;
-}
-
-.flex-column {
-=======
-
 #portfolio{
     position: relative;
     z-index: -1;
@@ -13,27 +5,16 @@
 }
 
 .flex-column{
->>>>>>> hana
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
 }
-<<<<<<< HEAD
-
-.flex-row {
-    display: flex;
-=======
->>>>>>> hana
 
 .flex-row{
     display: flex;    
 }
 
-<<<<<<< HEAD
-.flex-column_content {
-=======
 .flex-column_content{
->>>>>>> hana
     position: relative;
     width: 745px;
     height: 160px;
@@ -41,13 +22,8 @@
     margin-bottom: 80px;
 }
 
-<<<<<<< HEAD
-.flex-column_content--text {
-    padding-left: 150px;
-=======
 .flex-column_content--text{
     padding-left: 150px ;
->>>>>>> hana
     margin-bottom: 80px;
     height: 80px;
 }
@@ -65,20 +41,11 @@
     font-size: 16px;
 }
 
-<<<<<<< HEAD
-.flex-column_content h2,
-.flex-column_content p {
-    font-family: Poppins, sans-serif;
-}
-
-.flex-column_image {
-=======
 .flex-column_content h2, .flex-column_content p{
     font-family: Poppins,sans-serif;
 }
 
 .flex-column_image{
->>>>>>> hana
     box-sizing: content-box;
     width: 100%;
     height: 100%;
@@ -128,11 +95,6 @@
     border-radius: 10px;
 }
 
-<<<<<<< HEAD
-.flex-column_image--left {}
-
-.flex-column_image--right {}
-
 .flex-column_context--right {
 
     position: absolute;
@@ -143,7 +105,7 @@
     color: #64f4ac;
     font-family: Open Sans;
     font-size: 20px;
-=======
+}
 .flex-column__img-item--pic{
     position: relative;
     cursor: pointer;
@@ -183,7 +145,6 @@
     background: #fff;
     color: #545454;
     font-size: 14px;
->>>>>>> hana
     font-weight: 600;
     margin: 0 3px;
 }
@@ -261,9 +222,6 @@ a{
 }
 .experience_inner{
 
-<<<<<<< HEAD
-}
-=======
 }
 .media{
     display: flex;
@@ -457,4 +415,3 @@ a{
     right: 0;
 }
 
->>>>>>> hana
