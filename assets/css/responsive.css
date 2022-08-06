@@ -108,19 +108,6 @@
         left: 73.6%;
     }
 
-    /* Footer section */
-    .social-network {
-        left: 0;
-    }
-
-    .license {
-        padding: 0;
-    }
-}
-
-/* Tablet */
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
-
     /* About section */
     .row-reverse {
         flex-direction: column-reverse;
@@ -134,18 +121,13 @@
         padding: 30px 60px 30px 30px;
     }
 
+    .skill-part__item span i {
+        font-size: 30px;
+    }
+
     .content-part {
         padding: 0px 50px 0 10px;
         margin-bottom: 30px;
-    }
-
-    /* Service section */
-    .supporter {
-        padding: 0 70px;
-    }
-
-    .supporter__logo-item {
-        width: 23%;
     }
 
     /* Contact section */
@@ -175,6 +157,28 @@
         flex: unset;
         width: 100%;
     }
+
+    /* Footer section */
+    .social-network {
+        left: 0;
+    }
+
+    .license {
+        padding: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    /* Service section */
+    .supporter {
+        padding: 0 70px;
+    }
+
+    .supporter__logo-item {
+        width: 23%;
+    }
 }
 
 /* Mobile */
@@ -201,9 +205,9 @@
         left: -80px;
     }
 
-    .developer-content__chat, 
-    .developer-content__describe, 
-    .developer-content__slogan, 
+    .developer-content__chat,
+    .developer-content__describe,
+    .developer-content__slogan,
     .developer-content__job {
         margin-left: 0;
     }
@@ -230,7 +234,7 @@
         margin-top: 70px;
     }
 
-    .developer-skill__experience, 
+    .developer-skill__experience,
     .developer-skill__projects {
         width: 100%;
         padding: 0 24px;
@@ -239,7 +243,7 @@
     .developer-img {
         height: 630.138px;
     }
-    
+
     .developer-img1 {
         left: 0;
     }
@@ -269,6 +273,24 @@
     .developer-img7 {
         top: 140px;
         left: -55px;
+    }
+
+    /* Service section */
+    .supporter {
+        padding: 0;
+    }
+
+    .supporter__logo-item {
+        width: 30%;
+    }
+
+    /* Contact section */
+    #contact {
+        padding: 90px 0;
+    }
+
+    .media__content a {
+        font-size: 25px;
     }
 
     /* Footer section */
