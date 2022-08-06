@@ -289,11 +289,20 @@
         padding: 90px 0;
     }
 
+    .input,
+    .info {
+        padding: 0;
+    }
+
     .media__content a {
         font-size: 25px;
     }
 
     /* Footer section */
+    #footer {
+        padding: 7.5px 0;
+    }
+
     .column-footer {
         flex-direction: column;
     }
@@ -302,7 +311,17 @@
         justify-content: center;
     }
 
+    .social-network__item {
+        padding: 0 2px;
+    }
+
     .license {
         text-align: center;
+        margin-top: 0;
+        margin-bottom: 7px;
+    }
+
+    .license p {
+        letter-spacing: 2px;
     }
 }
