@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-family: Open Sans, sans-serif;
 }
 
 html {
@@ -52,10 +54,10 @@ input:focus {
 .license h6,
 .input__form-btn,
 .media__content h6,
-.input > h2,
-.info > h2,
-.input > h6,
-.info > h6,
+.input>h2,
+.info>h2,
+.input>h6,
+.info>h6,
 .content-part p,
 .content-part h5,
 .content-part h2,
@@ -523,7 +525,7 @@ input:focus {
 
 /* Service */
 #service {
-    padding-top: 100px; 
+    padding-top: 100px;
 }
 
 .supporter {
@@ -550,8 +552,8 @@ input:focus {
     padding-left: 175px;
 }
 
-.input > h6,
-.info > h6 {
+.input>h6,
+.info>h6 {
     color: #64f4ac;
     font-size: 14px;
     letter-spacing: 3px;
@@ -559,8 +561,8 @@ input:focus {
     margin-bottom: 15px;
 }
 
-.input > h2,
-.info > h2 {
+.input>h2,
+.info>h2 {
     color: #051441;
     letter-spacing: -1.7px;
     font-size: 38px;
@@ -569,7 +571,7 @@ input:focus {
     margin-bottom: 78px;
 }
 
-.info .media + .media {
+.info .media+.media {
     margin-top: 25px;
 }
 
@@ -578,7 +580,7 @@ input:focus {
     align-items: center;
 }
 
-.media > a {
+.media>a {
     color: #64f4ac;
     font-size: 50px;
     margin: 0 30px 0 20px;

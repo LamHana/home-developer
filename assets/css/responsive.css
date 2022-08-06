@@ -1,8 +1,15 @@
 /* PC */
 @media (min-width: 64em) {}
 
+@media (min-width: 1200px) {
+    .layout {
+        max-width: 1140px;
+    }
+}
+
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
+
     /* Header section */
     #header {
         height: 80px;
@@ -180,7 +187,7 @@
     #header {
         padding: 8px 15px;
     }
-    
+
     .header__logo {
         margin-top: 8px;
     }
