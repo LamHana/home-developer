@@ -234,6 +234,14 @@ a {
     display: flex;
 }
 
+.media:hover h4 {
+    color: #64f4ac;
+}
+
+.media:hover img {
+    transform: scale(1.1);
+}
+
 .experience_item {
     border-radius: 10px;
     padding: 20px;
@@ -244,6 +252,10 @@ a {
     margin-bottom: 30px;
     transition: all 0.3s linear;
     cursor: pointer;
+}
+
+.experience_item:hover {
+    box-shadow: 0 40px 60px 0 rgb(4 73 89 / 3%), 0 12px 100px 0 rgb(4 73 89 / 5%);
 }
 
 .media-left {
@@ -284,27 +296,19 @@ a {
     font-family: Poppins, sans-serif;
 }
 
-.media:hover h4 {
-    color: #64f4ac;
-}
-
-.media:hover img {
-    transform: scale(1.1);
-}
-
 /* awards */
 #awards {
     position: relative;
     z-index: -1;
     padding: 120px 0 120px;
-    background: #f8f8f8
+    background: #f8f8f8;
+    overflow: hidden;
 }
 
 .img_item--bg {
     position: absolute;
     top: 0;
-    z-index: -2;
-    width: 100%;
+    z-index: -1;
 }
 
 .layout {}
@@ -356,6 +360,18 @@ a {
     cursor: pointer;
 }
 
+.awards_item:hover {
+    border-radius: 0 100px 0 0;
+}
+
+.awards_item:hover .icon img {
+    transform: scale(1.1);
+}
+
+.awards_item:hover .icon:before {
+    border-radius: 30% 50% 50% 50%/60% 50% 20% 54% !important;
+}
+
 .awards_item h4 {
     font-family: Poppins, sans-serif;
     color: #051441;
@@ -382,6 +398,10 @@ a {
     z-index: 1;
 }
 
+.icon img {
+    transition: all 0.2s ease;
+}
+
 .flex-row [class*="flex-row__card"]:first-child .icon::before {
     background: #e0f7ef;
     border-radius: 62% 38% 61% 39%/46% 57% 43% 54%;
@@ -404,6 +424,7 @@ a {
     left: 0;
     height: 100%;
     z-index: -1;
+    transition: all 0.2s ease;
 }
 
 .flex-row [class*="flex-row__card"]:first-child:hover:before {

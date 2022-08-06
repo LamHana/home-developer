@@ -9,6 +9,7 @@
 
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
+
     /* Header section */
     #header {
         height: 80px;
@@ -178,11 +179,12 @@
 
 /* Mobile */
 @media (max-width: 46.1875em) {
+
     /* Header section */
     #header {
         padding: 8px 15px;
     }
-    
+
     .header__logo {
         margin-top: 8px;
     }
