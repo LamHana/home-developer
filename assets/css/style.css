@@ -272,7 +272,6 @@ input:focus {
     font-weight: bold;
     color: #051441;
     letter-spacing: -1.01px;
-    margin-bottom: 32px;
     animation: fadeInUp 700ms 0ms 1;
 }
 
@@ -280,6 +279,7 @@ input:focus {
     color: #545454;
     margin-bottom: 56px;
     animation: fadeInUp 900ms 0ms 1;
+    white-space: pre-line;
 }
 
 .developer-content__chat {

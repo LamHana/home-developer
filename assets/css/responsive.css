@@ -172,6 +172,10 @@
 
 /* Mobile */
 @media (max-width: 46.1875em) {
+    .part {
+        padding: 0;
+    }
+
     /* Header section */
     #header {
         padding: 8px 15px;
@@ -183,6 +187,81 @@
 
     .header__logo-img {
         width: 26.6%;
+    }
+
+    /* Home section */
+    .developer-content__img {
+        left: -80px;
+    }
+
+    .developer-content__chat, 
+    .developer-content__describe, 
+    .developer-content__slogan, 
+    .developer-content__job {
+        margin-left: 0;
+    }
+
+    .developer-content__job {
+        padding: 9px 29px;
+    }
+
+    .developer-content__job span {
+        letter-spacing: 1.25px;
+    }
+
+    .developer-content__slogan {
+        margin-bottom: 32px;
+        font-size: 38px;
+    }
+
+    .developer-content__describe {
+        white-space: unset;
+    }
+
+    .developer-content__developer-skill {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .developer-skill__experience, 
+    .developer-skill__projects {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+    .developer-img {
+        height: 630.138px;
+    }
+    
+    .developer-img1 {
+        left: 0;
+    }
+
+    .developer-img2 {
+        display: none;
+    }
+
+    .developer-img3 {
+        right: -15px;
+    }
+
+    .developer-img4 {
+        left: 0;
+        width: 384.4px;
+        height: 570.138px;
+    }
+
+    .developer-img5 {
+        left: -15px;
+    }
+
+    .developer-img6 {
+        left: 55%;
+    }
+
+    .developer-img7 {
+        top: 140px;
+        left: -55px;
     }
 
     /* Footer section */
