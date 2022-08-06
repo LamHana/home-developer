@@ -1,9 +1,30 @@
 /* PC */
 @media (min-width: 64em) {}
 
-@media (min-width: 1200px) {
-    .layout {
-        max-width: 1140px;
+@media (max-width: 1500px) {
+    .developer-content__slogan {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .content-part,
+    .skill-part {
+        padding: 0;
+    }
+
+    .info {
+        padding-left: 100px;
+    }
+
+    .input {
+        right: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .info {
+        padding-left: 50px;
     }
 }
 
