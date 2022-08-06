@@ -1,6 +1,12 @@
 /* PC */
 @media (min-width: 64em) {}
 
+@media (min-width: 1200px) {
+    .layout {
+        max-width: 1140px;
+    }
+}
+
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
     /* Header section */
