@@ -1,8 +1,36 @@
 /* PC */
 @media (min-width: 64em) {}
 
+@media (max-width: 1500px) {
+    .developer-content__slogan {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .content-part,
+    .skill-part {
+        padding: 0;
+    }
+
+    .info {
+        padding-left: 100px;
+    }
+
+    .input {
+        right: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .info {
+        padding-left: 50px;
+    }
+}
+
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
+
     /* Header section */
     #header {
         height: 80px;
@@ -101,19 +129,6 @@
         left: 73.6%;
     }
 
-    /* Footer section */
-    .social-network {
-        left: 0;
-    }
-
-    .license {
-        padding: 0;
-    }
-}
-
-/* Tablet */
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
-
     /* About section */
     .row-reverse {
         flex-direction: column-reverse;
@@ -127,18 +142,13 @@
         padding: 30px 60px 30px 30px;
     }
 
+    .skill-part__item span i {
+        font-size: 30px;
+    }
+
     .content-part {
         padding: 0px 50px 0 10px;
         margin-bottom: 30px;
-    }
-
-    /* Service section */
-    .supporter {
-        padding: 0 70px;
-    }
-
-    .supporter__logo-item {
-        width: 23%;
     }
 
     /* Contact section */
@@ -168,15 +178,41 @@
         flex: unset;
         width: 100%;
     }
+
+    /* Footer section */
+    .social-network {
+        left: 0;
+    }
+
+    .license {
+        padding: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    /* Service section */
+    .supporter {
+        padding: 0 70px;
+    }
+
+    .supporter__logo-item {
+        width: 23%;
+    }
 }
 
 /* Mobile */
 @media (max-width: 46.1875em) {
+    .part {
+        padding: 0;
+    }
+
     /* Header section */
     #header {
         padding: 8px 15px;
     }
-    
+
     .header__logo {
         margin-top: 8px;
     }
@@ -185,7 +221,109 @@
         width: 26.6%;
     }
 
+    /* Home section */
+    .developer-content__img {
+        left: -80px;
+    }
+
+    .developer-content__chat,
+    .developer-content__describe,
+    .developer-content__slogan,
+    .developer-content__job {
+        margin-left: 0;
+    }
+
+    .developer-content__job {
+        padding: 9px 29px;
+    }
+
+    .developer-content__job span {
+        letter-spacing: 1.25px;
+    }
+
+    .developer-content__slogan {
+        margin-bottom: 32px;
+        font-size: 38px;
+    }
+
+    .developer-content__describe {
+        white-space: unset;
+    }
+
+    .developer-content__developer-skill {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .developer-skill__experience,
+    .developer-skill__projects {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+    .developer-img {
+        height: 630.138px;
+    }
+
+    .developer-img1 {
+        left: 0;
+    }
+
+    .developer-img2 {
+        display: none;
+    }
+
+    .developer-img3 {
+        right: -15px;
+    }
+
+    .developer-img4 {
+        left: 0;
+        width: 384.4px;
+        height: 570.138px;
+    }
+
+    .developer-img5 {
+        left: -15px;
+    }
+
+    .developer-img6 {
+        left: 55%;
+    }
+
+    .developer-img7 {
+        top: 140px;
+        left: -55px;
+    }
+
+    /* Service section */
+    .supporter {
+        padding: 0;
+    }
+
+    .supporter__logo-item {
+        width: 30%;
+    }
+
+    /* Contact section */
+    #contact {
+        padding: 90px 0;
+    }
+
+    .input,
+    .info {
+        padding: 0;
+    }
+
+    .media__content a {
+        font-size: 25px;
+    }
+
     /* Footer section */
+    #footer {
+        padding: 7.5px 0;
+    }
+
     .column-footer {
         flex-direction: column;
     }
@@ -194,7 +332,17 @@
         justify-content: center;
     }
 
+    .social-network__item {
+        padding: 0 2px;
+    }
+
     .license {
         text-align: center;
+        margin-top: 0;
+        margin-bottom: 7px;
+    }
+
+    .license p {
+        letter-spacing: 2px;
     }
 }
