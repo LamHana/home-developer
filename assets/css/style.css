@@ -18,10 +18,21 @@ body {
     font-family: Open Sans, sans-serif;
 }
 
+.home__container,
+.service__container,
+.contact__container,
+.footer_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column-footer,
@@ -413,10 +424,6 @@ input:focus {
     padding: 120px 0 80px;
 }
 
-.skill-part {
-    padding-left: 180px;
-}
-
 .skill-part .skill-part__item+.skill-part__item {
     margin-top: 10px;
 }
@@ -491,7 +498,7 @@ input:focus {
 }
 
 .content-part {
-    padding: 0 180px 0 100px;
+    padding-left: 100px;
 }
 
 .content-part h6 {
@@ -520,7 +527,7 @@ input:focus {
 .content-part p {
     color: #545454;
     line-height: 32px;
-    font-size: 15.8px;
+    font-size: 15.5px;
 }
 
 /* Service */
@@ -583,7 +590,7 @@ input:focus {
 .media>a {
     color: #64f4ac;
     font-size: 50px;
-    margin: 0 30px 0 20px;
+    margin: 0 20px 0 20px;
     width: 10%;
 }
 
