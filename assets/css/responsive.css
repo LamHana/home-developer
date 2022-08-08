@@ -1,6 +1,4 @@
 /* PC */
-@media (min-width: 64em) {}
-
 @media (max-width: 1500px) {
     .developer-content__slogan {
         font-size: 50px;
@@ -8,11 +6,6 @@
 }
 
 @media (max-width: 1400px) {
-    .content-part,
-    .skill-part {
-        padding: 0;
-    }
-
     .info {
         padding-left: 100px;
     }
@@ -27,6 +20,14 @@
         padding-left: 50px;
     }
 }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 64em) {}
 
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
@@ -48,13 +49,24 @@
 
     .header__nav-container {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        padding: 20px 20px 15px;
+    }
+
+    .header__nav-container li {
+        margin-left: 0;
     }
 
     .header__btn-menu {
         display: block;
         margin-left: 20px;
     }
-
+    
     /* Home section */
     .overlay_color {
         width: 470px;
@@ -147,8 +159,12 @@
     }
 
     .content-part {
-        padding: 0px 50px 0 10px;
+        padding-left: 15px;
         margin-bottom: 30px;
+    }
+
+    .content-part p {
+        font-size: 16px;
     }
 
     /* Contact section */
@@ -294,6 +310,15 @@
     .developer-img7 {
         top: 140px;
         left: -55px;
+    }
+
+    /* About section */
+    .content-part {
+        padding-left: 0;
+    }
+
+    .skill-part {
+        padding: 0;
     }
 
     /* Service section */
