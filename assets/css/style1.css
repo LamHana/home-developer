@@ -175,6 +175,7 @@ a{
 #experience{
     position: relative;
     z-index: -1;
+    overflow: hidden;
     padding: 120px 0 120px; 
 }
 .img_item{
@@ -540,11 +541,10 @@ a{
     display: inline-block;
     padding-right: 5px;
 }
-.icon_tags{
 
-}
-.icon_chat{
-
+.blog-card__content--aut span+span {
+    border-left: 1px solid #494949;
+    padding-left: 12px;
 }
 
 .blog-card__content h2{
@@ -580,14 +580,16 @@ a{
     padding-left: 3px;
     transition: all .2s linear
 }
+
+.read_btn:hover i {
+    transform: translateX(5px);
+}
+
 .arrow-right{
     font-family: ElegantIcons;
     speak: none;
     font-style: normal;
     font-weight: 400;
-    font-feature-settings: normal;
-    font-variant: normal;
-    text-transform: none;
     line-height: 1;
 }
 .arrow-right::before{
