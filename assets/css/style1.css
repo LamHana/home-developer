@@ -479,6 +479,13 @@ a{
     font-family: Poppins,sans-serif;
 }
 
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+}   
 .blog-card{
     width: 100%;
     padding: 15px;
@@ -578,7 +585,8 @@ a{
 .read_btn i {
     vertical-align: middle;
     padding-left: 3px;
-    transition: all .2s linear
+    transition: all .2s linear;
+    display: inline-block;
 }
 
 .read_btn:hover i {
@@ -592,6 +600,50 @@ a{
     font-weight: 400;
     line-height: 1;
 }
+
 .arrow-right::before{
     content: "\24";
+}
+
+/* testimonials */
+#testimonials {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    padding: 120px 0; 
+    background: #f8f8f8
+}
+
+.img{
+    position: absolute;
+    z-index: -1;
+}
+.img--1{
+    right: 0;
+    top: 50%;
+}
+.img--2{
+    top: -20px;
+}
+
+.testimonials__tittle{
+    margin-bottom: 70px;
+}
+
+.testimonials__tittle h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #051441;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.testimonials__tittle p {
+    color: #545454;
+    font-size: 16px;
+}
+
+.testimonials__tittle h2,
+.testimonials__tittle p {
+    font-family: Poppins,sans-serif;
 }
