@@ -215,6 +215,15 @@
     .supporter__logo-item {
         width: 23%;
     }
+
+    /* Footer section */
+    .social-network {
+        margin-left: 16px;
+    }
+    
+    .license {
+        margin-right: 16px;
+    }
 }
 
 /* Mobile */
@@ -226,14 +235,6 @@
     /* Header section */
     #header {
         padding: 8px 15px;
-    }
-
-    .header__logo {
-        margin-top: 8px;
-    }
-
-    .header__logo-img {
-        max-width: 26%;
     }
 
     /* Home section */
