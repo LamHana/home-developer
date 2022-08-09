@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -122,7 +121,7 @@ p {
 }
 .flex-column__img-item--pic{
     position: relative;
-    display: flex;
+    height: 100%;
     cursor: pointer;
     overflow: hidden;
     border-radius: 10px;
@@ -150,7 +149,7 @@ p {
     font-weight:500;
     line-height:38.4px;
     text-align:center;
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 .category{
  
@@ -337,7 +336,7 @@ a{
     font-size: 16px;
 }
 .awards_tittle h2, .awards_tittle p{
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 .layout .flex-row{
     /* flex-wrap: wrap; */
@@ -375,7 +374,7 @@ a{
     transform: scale(1.1);
 }
 .awards_item h4{
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
     color: #051441;
     font-weight: 600;
     font-size: 24px;
@@ -431,7 +430,7 @@ a{
     text-transform: uppercase;
     position: relative;
     display: inline-block;
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 .awards_btn::before{
@@ -476,11 +475,11 @@ a{
 
 .blog_tittle h2,
 .blog_tittle p {
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 .fadeInUp {
-    animation-name: fadeInUp;
+    animation-name: "fadeInUp";
     animation-duration: 1000ms;
     animation-delay: 0ms;
     animation-iteration-count: 1;
@@ -542,11 +541,15 @@ a{
 .blog-card__content--aut span{
     font-size: 15px ;
     font-weight: 500;
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat",sans-serif;
     line-height: 15px;
     color: #494949;
     display: inline-block;
     padding-right: 5px;
+}
+
+.blog-card__content--aut span a {
+    color: #545454;
 }
 
 .blog-card__content--aut span+span {
@@ -555,7 +558,7 @@ a{
 }
 
 .blog-card__content h2{
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
     color: #051441;
     font-size: 22px;
     line-height: 28px;
@@ -570,13 +573,13 @@ a{
 }
 
 .blog-card__content--desc{
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
     color: #545454;
 }
 
 .read_btn{
     color: #64f4ac;
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 600;
     font-size: 14px;
     transition: color .3s linear;
@@ -594,8 +597,7 @@ a{
 }
 
 .arrow-right{
-    font-family: ElegantIcons;
-    speak: none;
+    font-family: "ElegantIcons";
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -645,5 +647,5 @@ a{
 
 .testimonials__tittle h2,
 .testimonials__tittle p {
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
 }
