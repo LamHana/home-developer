@@ -5,7 +5,7 @@
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .info {
         padding-left: 100px;
     }
@@ -15,13 +15,35 @@
     }
 }
 
+@media (min-width: 1213px) and (max-width: 1440px) {
+    .developer-content__img {
+        left: 50px;
+    }
+
+    .developer-content__chat,
+    .developer-content__describe,
+    .developer-content__slogan,
+    .developer-content__job {
+        margin-left: 100px;
+    }
+
+    .developer-img {
+        left: -150px;
+    }
+}
+
 @media (max-width: 1200px) {
+    #header__nav-login-link {
+        padding: 12px 30px;
+    }
+
     .info {
         padding-left: 50px;
     }
 }
 
 @media (min-width: 1200px) {
+
     .layout,
     .container {
         max-width: 1140px;
@@ -118,30 +140,6 @@
         letter-spacing: 0.5px;
     }
 
-    .developer-img1 {
-        left: 67px;
-    }
-
-    .developer-img2 {
-        left: 89px;
-    }
-
-    .developer-img3 {
-        right: -64px;
-    }
-
-    .developer-img4 {
-        left: 116px;
-    }
-
-    .developer-img5 {
-        left: 54px;
-    }
-
-    .developer-img6 {
-        left: 73.6%;
-    }
-
     /* About section */
     .row-reverse {
         flex-direction: column-reverse;
@@ -235,7 +233,7 @@
     }
 
     .header__logo-img {
-        width: 26.6%;
+        max-width: 26%;
     }
 
     /* Home section */
@@ -291,7 +289,7 @@
     }
 
     .developer-img3 {
-        right: -15px;
+        left: 202px;
     }
 
     .developer-img4 {
@@ -305,7 +303,7 @@
     }
 
     .developer-img6 {
-        left: 55%;
+        left: 210px;
     }
 
     .developer-img7 {
