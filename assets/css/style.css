@@ -60,6 +60,10 @@ input:focus {
     outline: 1px solid #0db3c7;
 }
 
+.display-flex {
+    display: flex !important;
+}
+
 /* Font */
 .license p,
 .license h6,

@@ -27,10 +27,10 @@
     }
 }
 
-@media (min-width: 64em) {}
+@media (min-width: 1024px) {}
 
 /* Tablet & Mobile */
-@media (max-width: 63.9375em) {
+@media (max-width: 1023px) {
 
     /* Header section */
     #header {
@@ -206,7 +206,7 @@
 }
 
 /* Tablet */
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
+@media (min-width: 740px) and (max-width: 1023px) {
 
     /* Service section */
     .supporter {
@@ -219,7 +219,7 @@
 }
 
 /* Mobile */
-@media (max-width: 46.1875em) {
+@media (max-width: 739px) {
     .part {
         padding: 0;
     }
