@@ -22,6 +22,7 @@
 }
 
 @media (min-width: 1200px) {
+    .layout,
     .container {
         max-width: 1140px;
     }
@@ -66,7 +67,7 @@
         display: block;
         margin-left: 20px;
     }
-    
+
     /* Home section */
     .overlay_color {
         width: 470px;
