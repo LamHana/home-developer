@@ -86,7 +86,6 @@ input:focus {
     font-family: Poppins, sans-serif;
 }
 
-
 /* Header */
 #header {
     position: fixed;
@@ -117,7 +116,7 @@ input:focus {
 
 .header__nav a {
     text-decoration: none;
-    font: bolder 13.5px/30px Montserrat, sans-serif;
+    font: 600 13.5px/30px Montserrat, sans-serif;
     text-transform: uppercase;
 }
 
@@ -345,6 +344,7 @@ input:focus {
     align-items: center;
     color: #545454;
     font-weight: bold;
+    margin: 0;
 }
 
 .developer-skill__experience span,
@@ -611,7 +611,7 @@ input:focus {
 .media__content a {
     text-decoration: none;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: Montserrat, sans-serif;
     color: #040c2c;
 }
@@ -730,4 +730,5 @@ input:focus {
     color: #fff;
     letter-spacing: 3px;
     text-transform: uppercase;
+    margin: 0;
 }
