@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
     font-family: Open Sans, sans-serif;
 }
 
@@ -85,6 +84,7 @@ input:focus {
 .developer-content__describe {
     font-family: Poppins, sans-serif;
 }
+
 
 /* Header */
 #header {
@@ -209,6 +209,23 @@ input:focus {
     height: 2px;
     background: #040c2c;
     margin-bottom: 5px;
+    transition: all 0.4s linear;
+}
+
+.header__btn-menu:hover span:nth-child(1) {
+    position: relative;
+    top: 6px;
+    transform: rotate(-45deg);
+}
+
+.header__btn-menu:hover span:nth-child(2) {
+    opacity: 0;
+}
+
+.header__btn-menu:hover span:nth-child(3) {
+    position: relative;
+    bottom: 8px;
+    transform: rotate(42deg);
 }
 
 #contact,
@@ -276,7 +293,7 @@ input:focus {
 
 .developer-content__job span {
     color: #051441;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 6.1px;
@@ -285,7 +302,7 @@ input:focus {
 .developer-content__slogan {
     font-size: 58px;
     line-height: 1.3;
-    font-weight: bold;
+    font-weight: 600;
     color: #051441;
     letter-spacing: -1.01px;
     animation: fadeInUp 700ms 0ms 1;
@@ -302,7 +319,7 @@ input:focus {
     position: relative;
     display: inline-block;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 600;
     color: #64f4ac;
     text-transform: uppercase;
     text-decoration: none;
@@ -343,7 +360,7 @@ input:focus {
     display: flex;
     align-items: center;
     color: #545454;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -356,6 +373,7 @@ input:focus {
 
 .developer-img {
     height: 767px;
+    position: relative;
 }
 
 .developer-img1,
@@ -369,7 +387,7 @@ input:focus {
 }
 
 .developer-img1 {
-    left: 160px;
+    left: 145px;
     bottom: 151px;
     z-index: -1;
     animation: fadeInLeft 1400ms 0ms 1;
@@ -377,14 +395,14 @@ input:focus {
 
 .developer-img2 {
     top: 50px;
-    left: 80px;
+    left: 65px;
     z-index: -1;
     animation: fadeInRight 1200ms 0ms 1;
 }
 
 .developer-img3 {
     top: 180px;
-    right: -25.5px;
+    left: 558px;
     animation: fadeInDown 1600ms 0ms 1;
 }
 
@@ -398,7 +416,7 @@ input:focus {
 
 .developer-img5 {
     top: 70px;
-    left: 99px;
+    left: 84px;
     animation: fadeInDown 2000ms 0ms 1;
 }
 
@@ -408,7 +426,7 @@ input:focus {
 
 .developer-img6 {
     top: 0;
-    left: 62.6%;
+    left: 451px;
     z-index: -1;
     animation: fadeInDown 2200ms 0ms 1;
 }
@@ -419,7 +437,7 @@ input:focus {
 
 .developer-img7 {
     top: 279px;
-    left: -13px;
+    left: -28px;
     animation: fadeInUp 1200ms 0ms 1;
 }
 
@@ -449,7 +467,7 @@ input:focus {
 .skill-part__item h3 {
     font-size: 28px;
     color: #051441;
-    font-weight: bold;
+    font-weight: 600;
     transition: color 0.2s linear;
     margin-bottom: 8px;
 }
@@ -509,6 +527,7 @@ input:focus {
     font-size: 18px;
     color: #545454;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .content-part h2 {
@@ -517,6 +536,7 @@ input:focus {
     line-height: 1.15;
     letter-spacing: 0.5px;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .content-part h5 {
@@ -577,7 +597,7 @@ input:focus {
     color: #051441;
     letter-spacing: -1.7px;
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 78px;
 }

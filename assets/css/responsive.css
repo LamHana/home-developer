@@ -6,8 +6,12 @@
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 1400px) {
     
+=======
+@media (max-width: 1440px) {
+>>>>>>> 7ea2a567cb2ab3960e1d14eadab823fc16b25045
     .info {
         padding-left: 100px;
     }
@@ -17,9 +21,20 @@
     }
 }
 
-@media (max-width: 1200px) {
-    .info {
-        padding-left: 50px;
+@media (max-width: 1440px) and (min-width: 1213px) {
+    .developer-content__img {
+        left: 50px;
+    }
+
+    .developer-content__chat,
+    .developer-content__describe,
+    .developer-content__slogan,
+    .developer-content__job {
+        margin-left: 100px;
+    }
+
+    .developer-img {
+        left: -150px;
     }
 }
 
@@ -29,9 +44,27 @@
     }
 }
 
+@media (max-width: 1200px) {
+    #header__nav-login-link {
+        padding: 12px 30px;
+    }
+
+    .info {
+        padding-left: 50px;
+    }
+
+    .social-network {
+        left: 100px;
+    }
+
+    .license {
+        padding-right: 100px;
+    }
+}
+
 @media (min-width: 1024px) {}
 
-/* Tablet & Mobile */
+/* Tablet */
 @media (max-width: 1023px) {
 
     /* Header section */
@@ -119,30 +152,6 @@
         letter-spacing: 0.5px;
     }
 
-    .developer-img1 {
-        left: 67px;
-    }
-
-    .developer-img2 {
-        left: 89px;
-    }
-
-    .developer-img3 {
-        right: -64px;
-    }
-
-    .developer-img4 {
-        left: 116px;
-    }
-
-    .developer-img5 {
-        left: 54px;
-    }
-
-    .developer-img6 {
-        left: 73.6%;
-    }
-
     /* About section */
     .row-reverse {
         flex-direction: column-reverse;
@@ -167,6 +176,15 @@
 
     .content-part p {
         font-size: 16px;
+    }
+
+    /* Service section */
+    .supporter {
+        padding: 0 70px;
+    }
+
+    .supporter__logo-item {
+        width: 23%;
     }
 
     /* Contact section */
@@ -200,23 +218,12 @@
     /* Footer section */
     .social-network {
         left: 0;
+        margin-left: 16px;
     }
 
     .license {
         padding: 0;
-    }
-}
-
-/* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
-
-    /* Service section */
-    .supporter {
-        padding: 0 70px;
-    }
-
-    .supporter__logo-item {
-        width: 23%;
+        margin-right: 16px;
     }
 }
 
@@ -229,14 +236,6 @@
     /* Header section */
     #header {
         padding: 8px 15px;
-    }
-
-    .header__logo {
-        margin-top: 8px;
-    }
-
-    .header__logo-img {
-        width: 26.6%;
     }
 
     /* Home section */
@@ -292,7 +291,7 @@
     }
 
     .developer-img3 {
-        right: -15px;
+        left: 202px;
     }
 
     .developer-img4 {
@@ -306,7 +305,7 @@
     }
 
     .developer-img6 {
-        left: 55%;
+        left: 210px;
     }
 
     .developer-img7 {
