@@ -25,3 +25,14 @@ listLi.forEach((item) => {
         ul.classList.remove('display-flex');
     };
 });
+
+$(document).ready(function(){
+    $('.slick-track').slick({
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots:true,
+    });
+});

@@ -8,25 +8,31 @@ p {
 #portfolio {
     position: relative;
     z-index: -1;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 140px 0 120px;
 }
+
 
 .flex-column {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
 }
 
+#portfolio .flex-row {
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-bottom: -80px;
+}
 .flex-row {
     display: flex;
+    width: 100%;
     margin-right: -15px;
     margin-left: -15px;
 }
 
 .flex-column_content {
     position: relative;
-    width: 745px;
+    width: 100%;
     height: 160px;
     padding: 0 40px 0 40px;
     margin-bottom: 80px;
@@ -655,4 +661,102 @@ a {
 .testimonials__tittle h2,
 .testimonials__tittle p {
     font-family: "Poppins", sans-serif;
+}
+.testimonials__slider{
+    padding-right: 100px;
+    text-align: center;
+}
+.slick-list{
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.slick-slide{
+    width: 100%;
+    height: 100%; 
+}
+.item{
+    border-radius: 10px;
+    background-color: rgba(229,239,253,.5);
+    color: #545454 !important;
+    text-align: left;
+    padding: 20px 120px 50px 50px;
+    font-family: "Poppins",sans-serif;
+    position: relative;
+
+}
+.author_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display:inline-block;
+    border: 1px solid #ededed;
+    background: #fff;
+    margin-top: -80px;
+}
+
+.author_img img {
+    max-width: 100%;
+    width: auto;
+}
+
+.item h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 0;
+    color: #051441 !important ;
+    font-family: "Poppins",sans-serif !important;
+    text-transform: capitalize;
+    margin-bottom: 0 !important;
+    line-height: 1;
+}
+
+.item span{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Open Sans,sans-serif;
+    opacity: 0.6;
+}
+
+.item p {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.slick-dots {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 40px;
+   margin-top: 20px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.slick-dots li,
+.slick-dots li button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    color: transparent;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    transition: all .3s linear;
+}
+
+.slick-dots .slick-active button {
+    background-color:#64f4ac!important;
+    transform: scale(1.2);
+    opacity: 1;
 }

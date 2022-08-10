@@ -9,10 +9,12 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./assets/css/style1.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive1.css">
     <link rel="stylesheet" href="./assets/fonts/et-line-font/style.css">
     <link rel="stylesheet" href="./assets/fonts/elegant_font/HTML CSS/style.css">
     <title>John Deo React Minimal Portfolio OnePage Template</title>
@@ -204,6 +206,7 @@
 
     <!-- Begin: portfolio -->
     <section id="portfolio">
+        <div class="layout layout-portfolio">
             <div class="flex-row">
                 <div class="flex-column">
                     <div class="flex-column_content">
@@ -274,6 +277,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- End: portfolio -->
 
@@ -286,9 +290,53 @@
                 <h2>Testimonials</h2>
                 <p>What's clients say about me.</p>
             </div>
-            <div class="testimonials__slider">
-                <div class="slick-list">
-                    <div class="slick-track"></div>
+            <div>
+                <div class="testimonials__slider">
+                    <div class="slick-list">
+                        <div class="slick-track">
+                            <div class="slick-slide">
+                                <div class="item">
+                                    <div class="author_img">
+                                        <img src="./assets/img/testimonials/Edward.jpg" alt="">
+                                    </div>
+                                    <h6>Edward Evans</h6>
+                                    <span>Envato Customer</span>
+                                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div> 
+                            <div class="slick-slide">
+                                <div class="item">
+                                    <div class="author_img">
+                                        <img src="./assets/img/testimonials/alex.png" alt="">
+                                    </div>
+                                        <h6>Alex Smith</h6>
+                                        <span>Envato Customer</span>
+                                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div> 
+                            <div class="slick-slide">
+                                <div class="item">
+                                    <div class="author_img">
+                                        <img src="./assets/img/testimonials/MICHAEL.jpg" alt="">
+                                    </div>
+                                        <h6>MICHAEL BEAN</h6>
+                                        <span>Graphic Designer</span>
+                                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- <ul class="slick-dots">
+                        <li>
+                            <button>1</button>
+                        </li>
+                        <li>
+                            <button>2</button>
+                        </li>
+                        <li>
+                            <button>3</button>
+                        </li> -->
+                    </ul>
                 </div>
             </div>
         </div>
@@ -387,7 +435,7 @@
                             <img src="./assets/img/award/col1.png" alt="">
                         </div>
                         <h4>Site of the year 2020</h4>
-                        <p>For most favorited design voted by NY City Style customers</p>
+                        <p>For most favourite design voted by NY City Style customers</p>
                         <a href="href=http://www.pinterest.com" class="awards_btn">
                             view more
                         </a>
@@ -614,8 +662,11 @@
     </section>
     <!-- End: footer -->
     <!-- </div> -->
+   
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
-
-<script src="./assets/js/main.js"></script>
 
 </html>

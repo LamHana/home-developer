@@ -1,11 +1,13 @@
 /* PC */
 @media (max-width: 1500px) {
+    
     .developer-content__slogan {
         font-size: 50px;
     }
 }
 
 @media (max-width: 1400px) {
+    
     .info {
         padding-left: 100px;
     }
@@ -22,7 +24,6 @@
 }
 
 @media (min-width: 1200px) {
-    .layout,
     .container {
         max-width: 1140px;
     }

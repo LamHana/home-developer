@@ -1,0 +1,55 @@
+/* 
+width>= 576
+width>= 768
+width>= 992
+width>= 1200
+width>= 1440
+
+width <= 1439
+
+width <= 1199
+
+width <= 991
+
+width <= 767
+
+width <= 575
+ */
+ @media screen and (max-width: 575px) {
+    
+ }
+
+ @media screen and (max-width: 767px) {
+    .layout{
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .layout{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    
+    .layout{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    
+}
+
+@media screen and (max-width: 1550px) { 
+     .layout{
+         max-width: 1140px;
+     }
+ }
+ 
+@media screen and (max-width: 1600px) {
+    .layout-portfolio{
+        max-width: 1440px;
+    }
+}
