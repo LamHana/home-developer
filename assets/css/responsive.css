@@ -5,13 +5,8 @@
         font-size: 50px;
     }
 }
-
-<<<<<<< HEAD
-@media (max-width: 1400px) {
     
-=======
 @media (max-width: 1440px) {
->>>>>>> 7ea2a567cb2ab3960e1d14eadab823fc16b25045
     .info {
         padding-left: 100px;
     }
