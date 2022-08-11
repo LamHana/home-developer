@@ -245,6 +245,7 @@ input:focus {
     background: linear-gradient(1.14deg, rgb(244, 247, 252) 0%, rgb(255, 255, 255) 100%);
     height: auto;
     padding-top: 170px;
+    margin-bottom: 16px;
 }
 
 .img-top-left {
@@ -288,7 +289,6 @@ input:focus {
     border-radius: 4px;
     padding: 8px 30.5px;
     margin-bottom: 32px;
-    animation: fadeInUp 500ms 0ms 1;
 }
 
 .developer-content__job span {
@@ -305,13 +305,11 @@ input:focus {
     font-weight: 600;
     color: #051441;
     letter-spacing: -1.01px;
-    animation: fadeInUp 700ms 0ms 1;
 }
 
 .developer-content__describe {
     color: #545454;
     margin-bottom: 56px;
-    animation: fadeInUp 900ms 0ms 1;
     white-space: pre-line;
 }
 
@@ -323,7 +321,6 @@ input:focus {
     color: #64f4ac;
     text-transform: uppercase;
     text-decoration: none;
-    animation: fadeInUp 1000ms 0ms 1;
 }
 
 .developer-content__chat::before {
@@ -390,20 +387,17 @@ input:focus {
     left: 145px;
     bottom: 151px;
     z-index: -1;
-    animation: fadeInLeft 1400ms 0ms 1;
 }
 
 .developer-img2 {
     top: 50px;
     left: 65px;
     z-index: -1;
-    animation: fadeInRight 1200ms 0ms 1;
 }
 
 .developer-img3 {
     top: 180px;
     left: 558px;
-    animation: fadeInDown 1600ms 0ms 1;
 }
 
 .developer-img4 {
@@ -411,13 +405,11 @@ input:focus {
     top: -10px;
     right: 0;
     left: 154px;
-    animation: fadeInDown 1600ms 0ms 1;
 }
 
 .developer-img5 {
     top: 70px;
     left: 84px;
-    animation: fadeInDown 2000ms 0ms 1;
 }
 
 .developer-img5 img {
@@ -428,7 +420,6 @@ input:focus {
     top: 0;
     left: 451px;
     z-index: -1;
-    animation: fadeInDown 2200ms 0ms 1;
 }
 
 .developer-img6 img {
@@ -438,7 +429,6 @@ input:focus {
 .developer-img7 {
     top: 279px;
     left: -28px;
-    animation: fadeInUp 1200ms 0ms 1;
 }
 
 /* About */
