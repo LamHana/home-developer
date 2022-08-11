@@ -94,6 +94,7 @@
 
     .header__nav-container li {
         margin-left: 0;
+        width: fit-content;
     }
 
     .header__btn-menu {

@@ -15,17 +15,23 @@ function scrollNav() {
 window.addEventListener("scroll", scrollNav);
 
 var showNav = document.querySelector(".header__btn-menu");
-var ul = document.querySelector(".header__nav-container");
+var navBar = document.querySelector(".header__nav-container");
 showNav.addEventListener("click", function () {
-    ul.classList.toggle("display-flex");
+    navBar.classList.toggle("display-flex");
 });
 
-var listLi = document.querySelectorAll(".list-item");
-listLi.forEach((item) => {
-    item.onclick = function () {
-        ul.classList.remove("display-flex");
-    };
+const menuBtn = document.querySelector('.header__btn-menu');
+menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('active__btn-menu');
 });
+
+// Purpose: optimized for users
+// var listLi = document.querySelectorAll(".list-item");
+// listLi.forEach((item) => {
+//     item.onclick = function () {
+//         navBar.classList.remove("display-flex");
+//     };
+// });
 
 $(document).ready(function () {
     $(".slick-track").slick({
@@ -38,12 +44,12 @@ $(document).ready(function () {
     });
 });
 
-const observer1st = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         const job = entry.target.querySelector(".developer-content__job");
         const slogan = entry.target.querySelector(".developer-content__slogan");
         const describe = entry.target.querySelector(".developer-content__describe");
-        const chat= entry.target.querySelector(".developer-content__chat");
+        const chat = entry.target.querySelector(".developer-content__chat");
         const dImg1 = entry.target.querySelector(".developer-img1");
         const dImg2 = entry.target.querySelector(".developer-img2");
         const dImg3 = entry.target.querySelector(".developer-img3");
@@ -81,4 +87,4 @@ const observer1st = new IntersectionObserver((entries) => {
         dImg7.classList.remove("developer-img7--animation");
     });
 });
-observer1st.observe(document.getElementById("home"));
+observer.observe(document.getElementById("home"));
