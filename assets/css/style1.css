@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -25,7 +24,6 @@ p {
 }
 .flex-row {
     display: flex;
-    width: 100%;
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -41,7 +39,6 @@ p {
 .flex-column_content--text {
     padding-left: 150px;
     margin-bottom: 80px;
-    height: 80px;
 }
 
 .flex-column_content h2 {
@@ -75,13 +72,14 @@ p {
 }
 
 .flex-column_context--right {
-    position: absolute;
-    left: 425px;
-    bottom: 29px;
+    position: relative;
+    margin-top: 120px;
+    float: right;
+    margin-right: 150px;
     color: #64f4ac;
-    font-family: Open Sans, sans-serif;
-    font-size: 19px;
-    font-weight: 500;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 30px;
     margin: 120px 150px 0px 0px;
     text-transform: uppercase;
@@ -107,20 +105,8 @@ p {
 .flex-column__img-item {
     box-sizing: content-box;
     width: 665px;
-    height: 443px;
     padding: 0 40px 0 40px;
     margin-bottom: 80px;
-}
-
-.flex-column_context--right {
-    position: absolute;
-    left: 425px;
-    /* top: 120px; */
-    bottom: 29px;
-    /* right: 170px; */
-    color: #64f4ac;
-    font-family: Open Sans;
-    font-size: 20px;
 }
 
 .flex-column__img-item--pic {
@@ -266,7 +252,6 @@ a {
 
 .media-left {
     margin-right: 20px;
-    overflow: hidden;
 }
 
 .media-left_img {
@@ -364,6 +349,8 @@ a {
     transition: all 0.3s linear;
     cursor: pointer;
 }
+
+
 
 .awards_item:hover {
     border-radius: 0 100px 0 0;
@@ -489,7 +476,7 @@ a {
 }
 
 .fadeInUp {
-    animation-name: "fadeInUp";
+    animation-name: fadeInUp;
     animation-duration: 1000ms;
     animation-delay: 0ms;
     animation-iteration-count: 1;
