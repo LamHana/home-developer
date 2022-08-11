@@ -40,6 +40,10 @@
 }
 
 @media (max-width: 1200px) {
+    #header {
+        padding: 8px 40px;
+    }
+
     #header__nav-login-link {
         padding: 12px 30px;
     }

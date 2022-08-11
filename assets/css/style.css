@@ -567,6 +567,7 @@ input:focus {
 #contact {
     padding: 120px 0;
     background: #fafafa;
+    margin-top: 16px;
 }
 
 .info {
@@ -629,7 +630,6 @@ input:focus {
 .input {
     position: relative;
     right: 93px;
-    animation: fadeInRight 800ms 0ms 1;
 }
 
 .input__form {
@@ -682,7 +682,6 @@ input:focus {
 #footer {
     background: #64f4ac;
     padding: 11.5px 0;
-    margin-top: 3.5px;
 }
 
 .social-network {
