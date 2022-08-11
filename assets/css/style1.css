@@ -74,6 +74,7 @@ p {
 .flex-column_context--right {
     position: relative;
     margin-top: 120px;
+    display: inline-block;
     float: right;
     margin-right: 150px;
     color: #64f4ac;
@@ -81,9 +82,7 @@ p {
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    margin: 120px 150px 0px 0px;
     text-transform: uppercase;
-    display: inline-block;
 }
 
 .flex-column_context--right::before {
@@ -708,7 +707,6 @@ a {
    display: flex;
    justify-content: center;
    align-items: center;
-   padding-left: 40px;
    margin-top: 20px;
 }
 

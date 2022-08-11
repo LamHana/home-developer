@@ -125,26 +125,16 @@ width <= 575
         max-width: 100%;
         
     }
-    /* .flex-column__img-item--1 {
-        position: absolute; 
-        top: 190px;
+    .flex-column_context--right {
+        float: left;
+        margin-top: 50px;
+        margin-right: 0;
     }
-    .flex-column__img-item--2 {
-        position: absolute; 
-        top: 503px;
-    }
-    .flex-column__img-item--3 {
-        position: absolute; 
-        top: 830px;
-    }
-    .flex-column__img-item--4 {
-        position: absolute; 
-        top: 1157px;
-    } */
-
+    
     .testimonials__slider {
         padding-right: 0;
     }
+
 
 }
 
@@ -165,7 +155,9 @@ width <= 575
     .awards_item {
         margin-bottom: 30px;
     }
-    
+    .testimonials__slider {
+        padding-right: 0;
+    }
     
 
 }
