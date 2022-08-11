@@ -327,15 +327,8 @@ a {
     font-family: "Poppins", sans-serif;
 }
 
-.layout .flex-row {
-    /* flex-wrap: wrap; */
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .flex-row__card {
     position: relative;
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
 }

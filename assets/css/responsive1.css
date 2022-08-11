@@ -19,7 +19,6 @@ width <= 575
 @media screen and (max-width: 1550px) { 
     .layout{
         max-width: 1140px;
-        /* overflow: hidden; */
     }
     .layout-portfolio{
         max-width: 1440px;
@@ -29,7 +28,6 @@ width <= 575
 @media screen and (max-width: 1439px) {
     .layout{
         max-width: 1140px;
-        /* overflow: hidden; */
     }
     .flex-column {
         flex: 0 0 50%;
@@ -42,7 +40,6 @@ width <= 575
     
     .layout{
         max-width: 960px;
-        /* overflow: hidden; */
     }
     .flex-column {
         flex: 0 0 50%;
@@ -70,7 +67,6 @@ width <= 575
 @media screen and (max-width: 991px) {
     .layout{
         max-width: 720px;
-        /* overflow: hidden; */
     }
     .flex-column {
         flex: 0 0 50%;
@@ -108,7 +104,6 @@ width <= 575
 @media screen and (max-width: 767px) {
     .layout{
         max-width: 540px;
-        overflow: hidden;
     }
     #blog .layout{
         max-width: 100%;
@@ -121,11 +116,34 @@ width <= 575
     }
     #portfolio .flex-row {
         flex-wrap: wrap;
+        position: relative;
     }
+    
     .flex-column {
         flex-wrap: wrap;
         flex-basis: auto;
         max-width: 100%;
+        
+    }
+    /* .flex-column__img-item--1 {
+        position: absolute; 
+        top: 190px;
+    }
+    .flex-column__img-item--2 {
+        position: absolute; 
+        top: 503px;
+    }
+    .flex-column__img-item--3 {
+        position: absolute; 
+        top: 830px;
+    }
+    .flex-column__img-item--4 {
+        position: absolute; 
+        top: 1157px;
+    } */
+
+    .testimonials__slider {
+        padding-right: 0;
     }
 
 }
@@ -133,7 +151,6 @@ width <= 575
 @media screen and (max-width: 575px) {
     .layout{
         max-width: 100%;
-        overflow: hidden;
     }
     .experience_item {
         display: block;
