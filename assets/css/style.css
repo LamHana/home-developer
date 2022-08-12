@@ -567,6 +567,10 @@ input:focus {
     margin-top: 16px;
 }
 
+.column-input {
+    margin: 0 -15px;
+}
+
 .info {
     padding-left: 175px;
 }

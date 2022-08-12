@@ -14,15 +14,11 @@ function scrollNav() {
 }
 window.addEventListener("scroll", scrollNav);
 
-var showNav = document.querySelector(".header__btn-menu");
-var navBar = document.querySelector(".header__nav-container");
-showNav.addEventListener("click", function () {
-    navBar.classList.toggle("display-flex");
-});
-
 const menuBtn = document.querySelector('.header__btn-menu');
+const navBar = document.querySelector(".header__nav-container");
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('active__btn-menu');
+    navBar.classList.toggle("display-flex");
 });
 
 // Purpose: optimized for users

@@ -3,10 +3,6 @@
     .developer-content__slogan {
         font-size: 50px;
     }
-    
-    .column-input {
-        margin: 0 -15px;
-    }
 }
     
 @media (max-width: 1440px) {
