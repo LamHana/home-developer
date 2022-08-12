@@ -1,8 +1,11 @@
 /* PC */
 @media (max-width: 1500px) {
-    
     .developer-content__slogan {
         font-size: 50px;
+    }
+    
+    .column-input {
+        margin: 0 -15px;
     }
 }
     
@@ -61,7 +64,12 @@
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .container-input__form-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 
 /* Tablet */
 @media (max-width: 1023px) {
@@ -203,16 +211,6 @@
 
     .input {
         right: 0;
-    }
-
-    .input__form {
-        width: 100%;
-    }
-
-    .input__form-text {
-        margin-right: 0;
-        flex: unset;
-        width: 100%;
     }
 
     /* Footer section */

@@ -34,6 +34,7 @@ body {
     margin-right: auto;
 }
 
+.column-input,
 .column-footer,
 .column,
 .row-reverse,
@@ -652,8 +653,15 @@ input:focus {
     flex: 1;
 }
 
+.container-input__form-text {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .input__form-text {
-    flex: 1;
+    width: 100%;
     padding: 6px 12px 6px 20px;
 }
 
