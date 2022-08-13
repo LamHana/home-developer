@@ -40,6 +40,7 @@ $(document).ready(function () {
     });
 });
 
+// Intersection Observer API
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         const job = entry.target.querySelector(".developer-content__job");
