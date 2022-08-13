@@ -1,3 +1,4 @@
+// add background color for header when scrolling web page
 function scrollNav() {
     var navbar = document.getElementById("header");
     var scrollValue = window.scrollY;
@@ -15,6 +16,7 @@ function scrollNav() {
 }
 window.addEventListener("scroll", scrollNav);
 
+// open-close: burger button
 const menuBtn = document.querySelector('.header__btn-menu');
 const navBar = document.querySelector(".header__nav-container");
 menuBtn.addEventListener('click', () => {
@@ -30,6 +32,7 @@ menuBtn.addEventListener('click', () => {
 //     };
 // });
 
+// slick
 $(document).ready(function () {
     $(".slick-track").slick({
         infinite: true,
@@ -41,7 +44,7 @@ $(document).ready(function () {
     });
 });
 
-// Intersection Observer API
+// Intersection Observer API for animations
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         const job = entry.target.querySelector(".developer-content__job");
@@ -87,19 +90,21 @@ const observer = new IntersectionObserver((entries) => {
 });
 observer.observe(document.getElementById("home"));
 
-let scrollPos = window.scrollY
-const home = document.getElementById("home")
-const home_height = home.offsetHeight
-const listItem = document.querySelector(".list-item")
+// scrollspy
+let section = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('.header__nav-container li .list-item');
+window.onscroll = () => {
+    section.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 300;
+        let height = sec.offsetHeight - 300;
+        let id = sec.getAttribute('id');
 
-const add_class_on_scroll = () => listItem.classList.add("active")
-const remove_class_on_scroll = () => listItem.classList.remove("active")
-
-window.addEventListener('scroll', function () {
-    scrollPos = window.scrollY;
-
-    if (scrollPos < home_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
-
-    console.log(scrollPos)
-})
+        if (top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('.header__nav-container li .list-item[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+};
