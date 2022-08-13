@@ -56,6 +56,33 @@
     }
 }
 
+@keyframes burgerAnimation {
+    0% {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+
+    25% {
+        opacity: 0.25;
+        transform: scaleY(0.25);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scaleY(0.5);
+    }
+
+    75% {
+        opacity: 0.75;
+        transform: scaleY(0.75);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .developer-content__job--animation {
         animation: fadeInUp 1500ms 0ms 1;

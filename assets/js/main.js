@@ -1,6 +1,7 @@
 function scrollNav() {
     var navbar = document.getElementById("header");
     var scrollValue = window.scrollY;
+    // console.log(scrollValue);
 
     if (scrollValue < 0.800000011920929) {
         navbar.classList.remove("scroll-active");
@@ -85,3 +86,20 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 observer.observe(document.getElementById("home"));
+
+let scrollPos = window.scrollY
+const home = document.getElementById("home")
+const home_height = home.offsetHeight
+const listItem = document.querySelector(".list-item")
+
+const add_class_on_scroll = () => listItem.classList.add("active")
+const remove_class_on_scroll = () => listItem.classList.remove("active")
+
+window.addEventListener('scroll', function () {
+    scrollPos = window.scrollY;
+
+    if (scrollPos < home_height) { add_class_on_scroll() }
+    else { remove_class_on_scroll() }
+
+    console.log(scrollPos)
+})

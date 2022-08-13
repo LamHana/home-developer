@@ -138,7 +138,7 @@ input:focus {
     left: 0;
 }
 
-.header__nav-container a::before {
+.header__nav-container .list-item::before {
     position: absolute;
     content: "";
     right: 0;
@@ -148,6 +148,12 @@ input:focus {
     opacity: 0.71;
     background: #040c2c;
     transition: all 0.3s ease-in-out;
+}
+
+.list-item.active::before {
+    background: #040c2c;
+    width: 100%;
+    left: 0;
 }
 
 .header__nav-login {}
