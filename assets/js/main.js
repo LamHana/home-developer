@@ -25,12 +25,13 @@ menuBtn.addEventListener('click', () => {
 });
 
 // Purpose: optimized for users
-// var listLi = document.querySelectorAll(".list-item");
-// listLi.forEach((item) => {
-//     item.onclick = function () {
-//         navBar.classList.remove("display-flex");
-//     };
-// });
+var listLi = document.querySelectorAll(".list-item");
+listLi.forEach((item) => {
+    item.onclick = function () {
+        navBar.classList.remove("display-flex");
+        menuBtn.classList.remove('active__btn-menu');
+    };
+});
 
 // slick
 $(document).ready(function () {
@@ -91,7 +92,7 @@ const observer = new IntersectionObserver((entries) => {
 observer.observe(document.getElementById("home"));
 
 // scrollspy
-let section = document.querySelectorAll('section');
+let section = document.querySelectorAll('[data-id="scrollspy"]');
 let navLinks = document.querySelectorAll('.header__nav-container li .list-item');
 window.onscroll = () => {
     section.forEach(sec => {
