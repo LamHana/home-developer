@@ -1,11 +1,9 @@
 /* PC */
 @media (max-width: 1500px) {
-    
     .developer-content__slogan {
         font-size: 50px;
     }
 }
-
 
 @media (max-width: 1440px) {
     .info {
@@ -41,6 +39,10 @@
 }
 
 @media (max-width: 1200px) {
+    #header {
+        padding: 8px 40px;
+    }
+
     #header__nav-login-link {
         padding: 12px 30px;
     }
@@ -58,7 +60,12 @@
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .container-input__form-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 
 /* Tablet */
 @media (max-width: 1023px) {
@@ -79,7 +86,6 @@
     }
 
     .header__nav-container {
-        display: none;
         flex-direction: column;
         position: absolute;
         top: 80px;
@@ -87,10 +93,14 @@
         width: 100%;
         background: #fff;
         padding: 20px 20px 15px;
+        transform-origin: top;
+        animation: burgerAnimation 0.2s ease-in;
+        display: none;
     }
 
     .header__nav-container li {
         margin-left: 0;
+        width: fit-content;
     }
 
     .header__btn-menu {
@@ -201,20 +211,9 @@
         right: 0;
     }
 
-    .input__form {
-        width: 100%;
-    }
-
-    .input__form-text {
-        margin-right: 0;
-        flex: unset;
-        width: 100%;
-    }
-
     /* Footer section */
     .social-network {
         left: 0;
-        margin-left: 16px;
     }
 
     .license {

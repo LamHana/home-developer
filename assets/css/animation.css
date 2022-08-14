@@ -37,7 +37,7 @@
         transform: translateY(-20px);
         opacity: 0;
     }
-    
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -53,5 +53,78 @@
     100% {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+@keyframes burgerAnimation {
+    0% {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+
+    25% {
+        opacity: 0.25;
+        transform: scaleY(0.25);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scaleY(0.5);
+    }
+
+    75% {
+        opacity: 0.75;
+        transform: scaleY(0.75);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .developer-content__job--animation {
+        animation: fadeInUp 1500ms 0ms 1;
+    }
+
+    .developer-content__slogan--animation {
+        animation: fadeInUp 1700ms 0ms 1;
+    }
+
+    .developer-content__describe--animation {
+        animation: fadeInUp 1900ms 0ms 1;
+    }
+
+    .developer-content__chat--animation {
+        animation: fadeInUp 2000ms 0ms 1;
+    }
+
+    .developer-img1--animation {
+        animation: fadeInLeft 1400ms 0ms 1;
+    }
+
+    .developer-img2--animation {
+        animation: fadeInRight 1200ms 0ms 1;
+    }
+
+    .developer-img3--animation {
+        animation: fadeInDown 1600ms 0ms 1;
+    }
+
+    .developer-img4--animation {
+        animation: fadeInDown 1600ms 0ms 1;
+    }
+
+    .developer-img5--animation {
+        animation: fadeInDown 2000ms 0ms 1;
+    }
+
+    .developer-img6--animation {
+        animation: fadeInDown 2200ms 0ms 1;
+    }
+
+    .developer-img7--animation {
+        animation: fadeInUp 1200ms 0ms 1;
     }
 }
