@@ -96,8 +96,8 @@ let navLinks = document.querySelectorAll('.header__nav-container li .list-item')
 window.onscroll = () => {
     section.forEach(sec => {
         let top = window.scrollY;
-        let offset = sec.offsetTop - 300;
-        let height = sec.offsetHeight - 300;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight - 150;
         let id = sec.getAttribute('id');
 
         if (top >= offset && top < offset + height) {
