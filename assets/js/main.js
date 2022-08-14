@@ -109,3 +109,8 @@ window.onscroll = () => {
         };
     });
 };
+
+// Submit
+$(".input__form-btn").click(function () {
+    alert("form is invalid");
+});
